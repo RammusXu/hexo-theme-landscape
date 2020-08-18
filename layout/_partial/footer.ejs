@@ -4,7 +4,9 @@
   <% } %>
   <div class="outer">
     <div id="footer-info" class="inner">
-      &copy; <%= date(new Date(), 'YYYY') %> <%= config.author || config.title %><br>
+      <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a></br>
+      Copyright &copy; 2015-<%= date(new Date(), 'YYYY') %> <%= config.author || config.title %><br>
+      All website licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank">CC BY-NC-ND 4.0</a>
       <%= __('powered_by') %> <a href="https://hexo.io/" target="_blank">Hexo</a>
     </div>
   </div>
